@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "backgroundColor": "orange",
+  "usingComponents": {
+    "home": "/pages/home/home",
+    "order": "/pages/order/order",
+    "my": "/pages/my/my"
+  }
+}

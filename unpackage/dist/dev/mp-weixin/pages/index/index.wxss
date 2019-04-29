@@ -1,0 +1,6 @@
+
+.logoChar {
+    font-size: 13px;
+    -webkit-transform: scale(0.7);
+}
+

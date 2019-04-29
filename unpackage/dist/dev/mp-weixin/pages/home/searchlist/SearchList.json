@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索结果",
+  "backgroundColor": "orange",
+  "usingComponents": {
+    "search-item": "/pages/home/searchlist/SearchItem"
+  }
+}

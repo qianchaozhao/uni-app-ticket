@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "start-end-point": "/pages/home/components/StartEndPoint"
+  },
+  "component": true
+}

@@ -1,0 +1,1 @@
+<view style="text-align:center;margin-top:30px;" id="logo" class="_div" bind:__l="__l"><image style="width:60px;height:40px;" id="logoImage" src="/static/exchange.svg" class="_img"></image><view class="logoChar _div" id="logoChar">金美美旗下旅行公司</view></view>
