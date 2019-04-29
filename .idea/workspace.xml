@@ -99,6 +99,9 @@
       <replace>view</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -130,6 +133,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -141,71 +145,6 @@
             <path>
               <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
               <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="colorui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="colorui" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="Colorui-UniApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="Colorui-UniApp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="Colorui-UniApp" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="searchlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="my" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uni-app-ticket" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-app-ticket" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,7 +158,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556506326449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556507175614" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -256,17 +195,17 @@
       <option name="presentableId" value="Default" />
       <updated>1556426234553</updated>
       <workItem from="1556426235848" duration="17000" />
-      <workItem from="1556426263997" duration="30549000" />
+      <workItem from="1556426263997" duration="31128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30566000" />
+    <option name="totallyTimeSpent" value="31145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -281,12 +220,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
