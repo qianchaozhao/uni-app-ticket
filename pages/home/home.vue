@@ -31,7 +31,7 @@
             </picker>
         </view>
         <view style="padding: 15upx;" class="bg-white top-line">
-            <button class="cu-btn bg-grey lg" style="width: 100%;" @click="goSearchList()">开始搜索</button>
+            <button class="cu-btn bg-gradual-orange lg" style="width: 100%;" @click="goSearchList()">开始搜索</button>
             <view style="padding: 5upx; display: flex; justify-content: space-between">
                 <view>历史1 历史2</view>
                 <view>清空历史</view>

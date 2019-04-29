@@ -3955,6 +3955,7 @@ scroll-view.cu-steps .cu-item {
 	font-size: 120upx;
 }
 
+/*文本大小写*/
 .text-Abc {
 	text-transform: Capitalize;
 }
@@ -3983,6 +3984,7 @@ scroll-view.cu-steps .cu-item {
 	font-weight: bold;
 }
 
+/*文本位置*/
 .text-center {
 	text-align: center;
 }
@@ -3998,6 +4000,8 @@ scroll-view.cu-steps .cu-item {
 .text-right {
 	text-align: right;
 }
+
+/*颜色*/
 
 .text-red,
 .line-red,

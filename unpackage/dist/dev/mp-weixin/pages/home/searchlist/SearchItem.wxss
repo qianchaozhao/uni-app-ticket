@@ -1,30 +1,30 @@
 
 .tujingdi.data-v-2b53cbf2 {
-  font-size: 15px;
-  text-align: left;
-  margin-left: 28px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 28px;
 }
 ._li.data-v-2b53cbf2 {
-  margin: 8px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
 }
 .font-small-grey.data-v-2b53cbf2 {
-  margin-top: 5px;
-  font-size: 13px;
-  color: #999;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #999;
 }
 .car-model.data-v-2b53cbf2::before {
-  content: '*';
-  font-size: 15px
+    content: '*';
+    font-size: 15px
 }
 .udCenter.data-v-2b53cbf2{
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 

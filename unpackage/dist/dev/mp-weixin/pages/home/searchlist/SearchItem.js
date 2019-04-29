@@ -98,8 +98,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var Progress = function Progress() {return __webpack_require__.e(/*! import() | pages/home/searchlist/Progress */ "pages/home/searchlist/Progress").then(__webpack_require__.bind(null, /*! ./Progress */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/pages/home/searchlist/Progress.vue"));};var _default =
-
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var Progress = function Progress() {return __webpack_require__.e(/*! import() | pages/home/searchlist/Progress */ "pages/home/searchlist/Progress").then(__webpack_require__.bind(null, /*! ./Progress */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/pages/home/searchlist/Progress.vue"));};var _default =
 
 
 
@@ -142,16 +141,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
   data: function data() {
     return {
-      pickerValue: new Date()
-      // carModel: {
-      //   content: 'url("' + this.$util.static('static/icon/calendar.png') + '")',
-      //   // backgroundRepeat: 'no-repeat',
-      //   // paddingLeft: '40px'
-      //   fontSize: '10px'
-      // },
-    };
+      pickerValue: new Date() };
+
+
   },
-  methods: {} };exports.default = _default;
+  methods: {
+    goSearchItem: function goSearchItem() {
+      uni.navigateTo({
+        url: "../itemDetail/ItemDetail" });
+
+    } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["default"]))
 
 /***/ }),
 

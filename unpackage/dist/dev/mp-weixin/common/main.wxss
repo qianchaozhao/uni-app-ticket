@@ -35,6 +35,7 @@
 
 
 
+
 	/*每个页面公共css */
     /*
   ColorUi for uniApp  v2.1.5 | by 文晓港 2019年4月25日18:57:19
@@ -3912,6 +3913,7 @@ scroll-view.cu-steps .cu-item {
 .text-xsl {
 	font-size: 120rpx;
 }
+    /*文本大小写*/
 .text-Abc {
 	text-transform: Capitalize;
 }
@@ -3935,6 +3937,7 @@ scroll-view.cu-steps .cu-item {
 .text-bold {
 	font-weight: bold;
 }
+    /*文本位置*/
 .text-center {
 	text-align: center;
 }
@@ -3947,6 +3950,7 @@ scroll-view.cu-steps .cu-item {
 .text-right {
 	text-align: right;
 }
+    /*颜色*/
 .text-red,
 .line-red,
 .lines-red {
@@ -5264,5 +5268,22 @@ scroll-view.cu-steps .cu-item {
 }
 .top-line {
     border-top: 1rpx solid #eee;
+}
+.text-orange2 {
+    color: #f50;
+    font-family: -apple-system,Helvetica,'Hiragino Sans GB W3',arial,sans-serif;
+}
+.circle-corner {
+    overflow:hidden;
+    border-radius: 10px;
+}
+.bg-yellow2 {
+    background-color: #ffdf40;
+}
+.min-height35 {
+    min-height: 35px;
+}
+.max-height35 {
+    max-height: 35px;
 }
 

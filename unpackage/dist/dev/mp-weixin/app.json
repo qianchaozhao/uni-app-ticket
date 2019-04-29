@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/home/searchlist/SearchList"
+    "pages/home/searchlist/SearchList",
+    "pages/home/itemDetail/ItemDetail",
+    "pages/home/orderDetail/OrderDetail"
   ],
   "subPackages": [],
   "window": {

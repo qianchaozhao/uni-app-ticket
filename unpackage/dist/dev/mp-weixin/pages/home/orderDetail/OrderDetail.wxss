@@ -1,0 +1,7 @@
+
+.grad.data-v-3f343646 {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffdf40), to(#f4f4f4));
+    background: -o-linear-gradient(#ffdf40, #f4f4f4);
+    background: linear-gradient(#ffdf40, #f4f4f4); /* 标准的语法（必须放在最后） */
+}
+

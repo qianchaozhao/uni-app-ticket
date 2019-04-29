@@ -1,3 +1,25 @@
 .top-line {
     border-top: 1upx solid #eee;
 }
+.text-orange2 {
+    color: #f50;
+    font-family: -apple-system,Helvetica,'Hiragino Sans GB W3',arial,sans-serif;
+}
+
+.circle-corner {
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+.bg-yellow2 {
+    background-color: #ffdf40;
+}
+
+
+.min-height35 {
+    min-height: 35px;
+}
+
+.max-height35 {
+    max-height: 35px;
+}

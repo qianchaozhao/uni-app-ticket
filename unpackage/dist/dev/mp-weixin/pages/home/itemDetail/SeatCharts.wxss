@@ -1,0 +1,23 @@
+
+.scroll.data-v-33b14b93 {
+    overflow-y: auto;
+    /*position: absolute;*/
+    width: 100%;
+}
+.bus-wrapper.data-v-33b14b93{
+    border:1px dotted #c5c5c5;
+    overflow: hidden;
+    border-radius: 30px 30px 10px 10px;
+}
+.carHead.data-v-33b14b93{
+    /*margin: 0 auto;*/
+    min-height:30px;
+    width:100%;
+    background-color: #e3e3e3;
+    /*border-radius: 0 0 30px 30px;*/
+    color: #585858;
+    text-align: center;
+}
+
+
+

@@ -1,5 +1,42 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["common/vendor"],{
 
+/***/ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/common/Utils.js":
+/*!*******************************************************************************!*\
+  !*** /Users/mac126/Documents/HBuilderProjects/uni-app-ticket/common/Utils.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  static: function _static(path) {
+    var isCordova = window.location.protocol.match(/^file/);
+    var staticPath = path;
+    if (path.match(/^\/static/)) {
+      if (isCordova) staticPath = "." + path;
+    }
+    if (path.match(/^uploads/)) {
+      // 图片路径以uploads开始则说明是服务上传的文件，自动加上服务器上传路径
+      staticPath = Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).REST_IP + "/" + path;
+    }
+    return staticPath;
+  },
+
+  // 获取屏幕宽度
+  winWidth: function winWidth() {
+    return window.innerWidth;
+  },
+
+  // 获取屏幕高度
+  winHeight: function winHeight() {
+    return window.innerHeight;
+  },
+  test: function test(p1, p2) {
+    console.log(p1, p2);
+  } };exports.default = _default;
+
+/***/ }),
+
 /***/ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/main.js":
 /*!***********************************************************************!*\
   !*** /Users/mac126/Documents/HBuilderProjects/uni-app-ticket/main.js ***!
@@ -10,12 +47,15 @@
 "use strict";
 /* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/pages.json");
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/App.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var cuCustom = function cuCustom() {return __webpack_require__.e(/*! import() | colorui/components/cu-custom */ "colorui/components/cu-custom").then(__webpack_require__.bind(null, /*! ./colorui/components/cu-custom.vue */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/colorui/components/cu-custom.vue"));};
+var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/App.vue"));
 
+var _Utils = _interopRequireDefault(__webpack_require__(/*! ./common/Utils */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/common/Utils.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var cuCustom = function cuCustom() {return __webpack_require__.e(/*! import() | colorui/components/cu-custom */ "colorui/components/cu-custom").then(__webpack_require__.bind(null, /*! ./colorui/components/cu-custom.vue */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/colorui/components/cu-custom.vue"));};
 
 _vue.default.component('cu-custom', cuCustom);
 
 _vue.default.config.productionTip = false;
+
+_vue.default.prototype.$util = _Utils.default;
 
 _App.default.mpType = 'app';
 
@@ -24,6 +64,40 @@ _App.default));
 
 createApp(app).$mount();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createApp"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/main.js?{\"page\":\"pages%2Fhome%2FitemDetail%2FItemDetail\"}":
+/*!*************************************************************************************************************************!*\
+  !*** /Users/mac126/Documents/HBuilderProjects/uni-app-ticket/main.js?{"page":"pages%2Fhome%2FitemDetail%2FItemDetail"} ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _ItemDetail = _interopRequireDefault(__webpack_require__(/*! ./pages/home/itemDetail/ItemDetail.vue */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/pages/home/itemDetail/ItemDetail.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_ItemDetail.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/main.js?{\"page\":\"pages%2Fhome%2ForderDetail%2FOrderDetail\"}":
+/*!***************************************************************************************************************************!*\
+  !*** /Users/mac126/Documents/HBuilderProjects/uni-app-ticket/main.js?{"page":"pages%2Fhome%2ForderDetail%2FOrderDetail"} ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _OrderDetail = _interopRequireDefault(__webpack_require__(/*! ./pages/home/orderDetail/OrderDetail.vue */ "../../../../../../Users/mac126/Documents/HBuilderProjects/uni-app-ticket/pages/home/orderDetail/OrderDetail.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_OrderDetail.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
 
