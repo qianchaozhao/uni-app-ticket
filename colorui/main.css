@@ -2063,7 +2063,7 @@ button.icon.lg {
 	padding-right: 150upx;
 	/* #endif */
 	box-shadow: 0upx 0upx 0upx;
-	z-index: 9999;
+	z-index: 1000;
 }
 
 .cu-custom .cu-bar .border-custom {
