@@ -1,26 +1,29 @@
 <template>
-	<view>
+	<view id="index">
 		<home v-if="PageCur == 'home'"></home>
         <order v-if="PageCur == 'order'"></order>
         <my v-if="PageCur == 'my'"></my>
         <view class="cu-bar tabbar bg-white shadow foot">
-            <view class="action" @click="NavChange" data-cur="home">
+            <view class="action" @click="NavChange" :class="PageCur=='home'?'text-green':'text-gray'" data-cur="home">
                 <view class='cuIcon-cu-image'>
-                    <image :src="'/static/mainMenu/home.png'"></image>
+                    <!--<image :src="'/static/mainMenu/home.png'"></image>-->
+                    <text class=" cuIcon-home "></text>
                 </view>
-                <view :class="PageCur=='home'?'text-green':'text-gray'">首页</view>
+                <view>首页</view>
             </view>
-            <view class="action" @click="NavChange" data-cur="order">
+            <view class="action" @click="NavChange" :class="PageCur=='order'?'text-green':'text-gray'" data-cur="order">
                 <view class='cuIcon-cu-image'>
-                    <image :src="'/static/mainMenu/order.png'"></image>
+                    <!--<image :src="'/static/mainMenu/order.png'"></image>-->
+                    <text class=" cuIcon-form "></text>
                 </view>
-                <view :class="PageCur=='order'?'text-green':'text-gray'">订单</view>
+                <view>订单</view>
             </view>
-            <view class="action" @click="NavChange" data-cur="my">
+            <view class="action" @click="NavChange" :class="PageCur=='my'?'text-green':'text-gray'" data-cur="my">
                 <view class='cuIcon-cu-image'>
-                    <image :src="'/static/mainMenu/my.png'"></image>
+                    <!--<image :src="'/static/mainMenu/my.png'"></image>-->
+                    <text class=" cuIcon-my "></text>
                 </view>
-                <view :class="PageCur=='my'?'text-green':'text-gray'">我的</view>
+                <view>我的</view>
             </view>
         </view>
         <div id="logo" style="text-align: center; margin-top: 30px">
