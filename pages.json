@@ -27,8 +27,28 @@
         "navigationBarTitleText": "完善订单",
         "backgroundColor": "orange"
       }
+    },
+    {
+      "path": "pages/home/components/MyMap",
+      "style": {
+        "navigationBarTitleText": "地图",
+        "backgroundColor": "orange"
+      }
+    },
+    {
+      "path": "pages/richText/RichText",
+      "style": {
+        "navigationBarTitleText": "富文本页面",
+        "backgroundColor": "orange"
+      }
+    },
+    {
+      "path": "pages/home/orderDetail/AddPassenger",
+      "style": {
+        "navigationBarTitleText": "富文本页面",
+        "backgroundColor": "orange"
+      }
     }
-
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",

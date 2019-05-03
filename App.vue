@@ -5,6 +5,8 @@
 			console.log('App Launch')
             uni.getSystemInfo({
                 success: function(e) {
+                    console.log(e);
+                    Vue.prototype.ScreenHeight = e.screenHeight
                     // #ifndef MP
                     Vue.prototype.StatusBar = e.statusBarHeight;
                     if (e.platform == 'android') {
@@ -40,5 +42,6 @@
     @import "colorui/main.css";
     @import "colorui/icon.css";
     @import "colorui/animation.css";
-    @import "colorui/my.css";
+    @import "myui/my.css";
+    @import "myui/myicon/iconfont.css";
 </style>
