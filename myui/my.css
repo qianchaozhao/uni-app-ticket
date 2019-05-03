@@ -1,0 +1,58 @@
+.top-line {
+    border-top: 1upx solid #eee;
+}
+.text-orange2 {
+    color: #f50;
+}
+
+.circle-corner {
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+.bg-yellow2 {
+    background-color: #ffdf40;
+}
+
+
+.min-height35 {
+    min-height: 35px;
+}
+.min-height40 {
+    min-height: 40px;
+}
+
+.max-height35 {
+    max-height: 35px;
+}
+
+.bottom-fix {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.my-bar {
+    min-height: 100upx;
+}
+
+.text-left{
+    text-align: left;
+}
+
+/*文字*/
+.font-size12{
+    font-size: 12px;
+}
+.font-size13 {
+    font-size: 13px;
+}
+.font-size15 {
+    font-size: 15px;
+}
+.font-size20 {
+    font-size: 20px;
+}
+.font-size21 {
+    font-size: 21px;
+}
