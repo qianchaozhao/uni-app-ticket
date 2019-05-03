@@ -5,7 +5,7 @@
                 <view class="page-section-spacing">
                     <swiper class="swiper" :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval" :duration="duration">
                         <swiper-item v-for="(img, index) in bannerImgs" :key="index">
-                            <img style="width: 100%; height: 100%;" :src="img"/>
+                            <image mode="aspectFill" style="width: 100%; height: 100%;" :src="img"></image>
                         </swiper-item>
                     </swiper>
                 </view>
@@ -14,7 +14,13 @@
         <scroll-view scroll-x class="bg-white nav">
             <view class="flex text-center">
                 <view class="cu-item flex-sub" :class="index==TabCur?'text-orange cur':''" v-for="(item,index) in ticket" :key="index" @tap="tabSelect" :data-id="index">
-                    {{item}}
+                    <view class="flex">
+                        <view class="flex-sub"></view>
+                        <view class="flex-sub">{{item.name}}</view>
+                        <view class="flex-sub flex align-center justify-center">
+                            <view v-if="item.isPromotion" class="cu-tag tag round sm bg-gradual-orange">{{item.promotionContent}}</view>
+                        </view>
+                    </view>
                 </view>
             </view>
         </scroll-view>
@@ -30,10 +36,20 @@
                 </view>
             </picker>
         </view>
-        <view style="padding: 15upx;" class="bg-white top-line">
+        <view class="bg-white padding top-line">
             <button class="cu-btn bg-gradual-orange lg" style="width: 100%;" @click="goSearchList()">开始搜索</button>
-            <view style="padding: 5upx; display: flex; justify-content: space-between">
-                <view>历史1 历史2</view>
+            <view class="padding-top-sm flex justify-between">
+                <view class="text-sm" >
+                    <text class="padding-lr-xs">
+                        北京 <text class="myIcon-jiantou padding-lr-xs"></text> 唐山
+                    </text>
+                    <text class="padding-lr-xs">
+                        唐山 <text class="myIcon-jiantou padding-lr-xs"></text> 北京
+                    </text>
+                    <text class="padding-lr-xs">
+                        北京 <text class="myIcon-jiantou padding-lr-xs"></text> 秦皇岛
+                    </text>
+                </view>
                 <view>清空历史</view>
             </view>
         </view>
@@ -57,8 +73,16 @@
                     "https://gw.alicdn.com/tfs/TB193I3QkvoK1RjSZPfXXXPKFXa-1125-352.jpg_790x10000Q75.jpg_.webp"
                 ],
                 ticket: [
-                    "汽车票",
-                    "专车票"
+                    {
+                        name: '汽车票',
+                        isPromotion: false,
+                        promotionContent: ''
+                    },
+                    {
+                        name: '专车票',
+                        isPromotion: true,
+                        promotionContent: 'new'
+                    }
                 ],
                 TabCur: 0,
                 scrollLeft: 0,
@@ -83,4 +107,7 @@
 </script>
 
 <style>
+    .tag {
+        border-top-right-radius: 0px
+    }
 </style>

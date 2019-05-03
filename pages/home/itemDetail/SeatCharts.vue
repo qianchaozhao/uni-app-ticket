@@ -18,7 +18,7 @@
                                 <view class=""
                                       @click="handleChooseSeat(rIndex,cIndex)"
                                       v-if="col !== '_'"
-                                      style="width: 80%; height: 80%;">
+                                      style="width: 80%; height: 80%; text-align: center">
                                     <image style="width: 100%;" mode="widthFix" :src="seats[col].image"></image>
                                 </view>
                             </view>
@@ -67,24 +67,27 @@
                     'ee_e!',
                     'ee_ee',
                     'ee_ee',
+                    'ee_ee',
+                    'ee_ee',
                     'ee___',
                     'ee_ee',
                     'ee_ee',
                     'ee_ee',
+                    'ee_ee',
+                    'ee_ee',
                     'aaaaa',
-                    'aaaaa',
-                    'aaaaa',
-                    'aaaaa',
-                    'aaaaa',
-                    'aaaaa',
-                    'aaaaa',
+
                 ],
                 mapCopy: [
                     '-____',
                     'ee_e!',
                     'ee_ee',
                     'ee_ee',
+                    'ee_ee',
+                    'ee_ee',
                     'ee___',
+                    'ee_ee',
+                    'ee_ee',
                     'ee_ee',
                     'ee_ee',
                     'ee_ee',
@@ -94,7 +97,7 @@
                     '!': {
                         price: 0,
                         image: '../../../static/seatImg/seatRed.svg',
-                        category: '不可选'
+                        category: '不可选',
                     },
                     '?': {
                         price: 0,

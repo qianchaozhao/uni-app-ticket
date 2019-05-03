@@ -4,7 +4,7 @@
             <view class="padding-lr" :class="animation?'animation-slide-right' :''">
                 {{start.name}}
             </view>
-            <img style="height: 18px; width: 18px" src="../../../static/exchange.svg" @tap="toggle()"/>
+            <img style="width: 28px" mode="widthFix" src="../../../static/exchange.svg" @tap="toggle()"/>
             <view class="padding-lr" :class="animation?'animation-slide-left' :''">
                 {{end.name}}
             </view>
