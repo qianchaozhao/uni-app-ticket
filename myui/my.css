@@ -1,6 +1,15 @@
+
+/*border*/
 .top-line {
     border-top: 1upx solid #eee;
 }
+.bottom-line {
+    border-bottom: 1upx solid #eee;
+}
+.right-line {
+    border-right: 1upx solid #eee;
+}
+/*文本*/
 .text-orange2 {
     color: #f50;
 }
@@ -32,6 +41,10 @@
     width: 100%;
 }
 
+.width100 {
+    width: 100%;
+}
+
 .my-bar {
     min-height: 100upx;
 }
@@ -55,4 +68,12 @@
 }
 .font-size21 {
     font-size: 21px;
+}
+
+/*padding*/
+.padding-lr50 {
+    padding: 0px 50px
+}
+.padding-lr30 {
+    padding: 0px 30px
 }

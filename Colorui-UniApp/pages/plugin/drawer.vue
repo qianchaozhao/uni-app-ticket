@@ -3,7 +3,7 @@
 		<scroll-view scroll-y class="DrawerPage" :class="modalName=='viewModal'?'show':''">
 			<cu-custom bgColor="bg-gradual-blue" :isBack="true"><block slot="backText">返回</block>
 				<block slot="content">全屏抽屉</block>
-			</cu-custom>			
+			</cu-custom>
 			<view class='padding margin text-center'>
 				<view class='cu-btn bg-green lg block shadow radius margin-xl' @tap="showModal" data-target="viewModal">
 					打开抽屉
@@ -17,7 +17,7 @@
 					</view>
 				</view>
 			</view>
-			
+
 			<view class='padding margin text-center'>
 				<view class='cu-btn bg-green lg block shadow radius margin-xl' @tap="showModal" data-target="viewModal">
 					打开抽屉
