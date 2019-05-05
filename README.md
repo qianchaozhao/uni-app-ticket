@@ -6,7 +6,7 @@
 
 <p style="text-align: center;">
   <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG132.png" alt="" style="max-width:100%;" width="300">
-  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG132.png" alt="" style="max-width:100%;" width="300">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG133.png" alt="" style="max-width:100%;" width="300">
   <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG134.png" alt="" style="max-width:100%;" width="300">
   <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG135.png" alt="" style="max-width:100%;" width="300">
   <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG136.png" alt="" style="max-width:100%;" width="300">
@@ -16,6 +16,25 @@
   <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG140.png" alt="" style="max-width:100%;" width="300">
 </p>
 
+### 项目布局
+
+``` lua
+colorui -- ui框架
+Colorui -- UniApp -- UI框架官方案例(与项目无关,可供参考)
+common -- 所需要的公用方法
+myui -- 自定义样式
+static -- 图片等静态文件
+ReadmeImg -- readme所需静态文件
+unpackage -- 打包各平台后的代码
+pages.json -- 路由配置
+pages -- 源码目录
+├── common -- 公用组件
+├── index -- 首页
+├── home -- 首页默认的第一页面
+├── order -- 订单页面
+├── my -- '我的'页面
+└── richText -- 富文本公用页面
+```
 
 #### 软件架构
 1. 前端: uni-app + color-ui
