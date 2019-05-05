@@ -4,9 +4,19 @@
 用uni-app + color-ui 仿照飞猪做了一个小项目玩玩,此项目可以打包出7个平台(微信小程序, h5, ios, android, 支付宝小程序, 百度小程序, 字节跳动小程序)
 但是只有前三个平台是本人亲自测试过没什么问题的
 
+<p style="text-align: center;">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG132.png" alt="" style="max-width:100%;" width="300">
+</p>
+<p style="text-align: center;">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG133.png" alt="" style="max-width:100%;" width="300">
+</p>
+<p style="text-align: center;">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG134.png" alt="" style="max-width:100%;" width="300">
+</p>
+
 #### 软件架构
-前端: uni-app + color-ui
-后端准备用:spring-cloud + springboot等(还没开始写)
+1. 前端: uni-app + color-ui
+2. 后端准备用:spring-cloud + springboot等(还没开始写)
 
 #### 安装教程
 本项目依着h5端和小程序先来
