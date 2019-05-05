@@ -1,37 +1,27 @@
 # uni-app-ticket
 
 #### 介绍
-uni-app + color-ui 的前端买票页面
+用uni-app + color-ui 仿照飞猪做了一个小项目玩玩,此项目可以打包出7个平台(微信小程序, h5, ios, android, 支付宝小程序, 百度小程序, 字节跳动小程序)
+但是只有前三个平台是本人亲自测试过没什么问题的
 
 #### 软件架构
-软件架构说明
-
+前端: uni-app + color-ui
+后端准备用:spring-cloud + springboot等(还没开始写)
 
 #### 安装教程
+本项目依着h5端和小程序先来
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. [需要安装HbuilderX开发工具 下载地址及介绍]( https://uniapp.dcloud.io/quickstart?id=%E9%80%9A%E8%BF%87-hbuilderx-%E5%8F%AF%E8%A7%86%E5%8C%96%E7%95%8C%E9%9D%A2)
+
+2. 测试小程序安卓微信开发者工具, ios或其他平台测试都下载对应的开发工具(各平台的开发工具安装及环境搭建google或baidu吧)
+3. 将项目导入HbuilderX
+4. h5运行 : 点击HbuilderX工具上侧导航栏的 运行-> 运行到浏览器 -> Chrome等选择一个浏览器
+5. wechat小程序运行: 点击HbuilderX工具上侧导航栏的 运行-> 运行小程序模拟器 -> 微信开发者工具
 
 #### 使用说明
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. [uni-app 官网参考]( https://uniapp.dcloud.io)
 
-#### 参与贡献
-
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+#### 交流
 
 
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
