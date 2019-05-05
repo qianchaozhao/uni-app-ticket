@@ -6,13 +6,16 @@
 
 <p style="text-align: center;">
   <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG132.png" alt="" style="max-width:100%;" width="300">
-</p>
-<p style="text-align: center;">
-  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG133.png" alt="" style="max-width:100%;" width="300">
-</p>
-<p style="text-align: center;">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG132.png" alt="" style="max-width:100%;" width="300">
   <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG134.png" alt="" style="max-width:100%;" width="300">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG135.png" alt="" style="max-width:100%;" width="300">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG136.png" alt="" style="max-width:100%;" width="300">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG137.png" alt="" style="max-width:100%;" width="300">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG138.png" alt="" style="max-width:100%;" width="300">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG139.png" alt="" style="max-width:100%;" width="300">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG140.png" alt="" style="max-width:100%;" width="300">
 </p>
+
 
 #### 软件架构
 1. 前端: uni-app + color-ui
@@ -37,3 +40,7 @@
 <p style="text-align: center;">
   <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/myWeChat.jpeg" alt="" style="max-width:100%;" width="300">
 </p>
+1. 此项目写的不好, 不喜勿喷, 仅限学习交流, 商业用途出现事故与此项目无关
+
+#### 使用说明
+#### 使用说明
