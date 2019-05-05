@@ -24,3 +24,4 @@
 
 #### 交流
 
+![image](https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/myWeChat.jpeg)
