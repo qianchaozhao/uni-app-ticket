@@ -16,7 +16,7 @@
   <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/WechatIMG140.png" alt="" style="max-width:100%;" width="300">
 </p>
 
-### 项目布局
+#### 项目布局
 
 ``` lua
 colorui -- ui框架
