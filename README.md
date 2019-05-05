@@ -24,4 +24,6 @@
 
 #### 交流
 
-![image](https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/myWeChat.jpeg)
+<p style="text-align: center;">
+  <img src="https://github.com/qianchaozhao/uni-app-ticket/blob/master/ReadmeImg/myWeChat.jpeg" alt="" style="max-width:100%;" width="300">
+</p>
